@@ -1,0 +1,5 @@
+{>"layouts/master" /}
+
+{<body}
+	<h1>Evaluated {name}</h1>
+{/body}

@@ -1,0 +1,9 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>{@pre type="content" key="greeting"/}</h1>
+    <form action="/evaluated" name="frmName" method="post">
+    	<input type="text" name="name" value="" />
+    	<input type="submit" name="submit" value="Submit" />
+    </form>
+{/body}
