@@ -14,10 +14,11 @@ module.exports = function (app) {
     });
 
     app.get('/testing', function (req, res) {
-        res.render('index', model);
+        res.render('evaluated', model);
     });
 
-    app.post('/evaluated', function (req, res) {
+    app.get('/evaluated', function (req, res) {
+        console.log("reached evaluated");
         res.render('index', model);
     });
 };
